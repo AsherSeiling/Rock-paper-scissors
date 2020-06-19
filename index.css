@@ -1,0 +1,35 @@
+/* © 2020 Asher Seiling*/
+*{
+    margin: 0;
+}
+:root{
+    --margins-body: 200pt;
+}
+.nav_bar{
+    background-color: black;
+    color: white;
+}
+
+.nav_bar h1{
+    margin-left: 50pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    border-radius: 5pt;
+    color: white;
+    text-decoration: none;
+}
+
+.title h1:hover{
+    color: darkgray;
+}
+
+body{
+    background-color: rgb(19, 1, 121);
+}
+
+.body{
+    margin-left: var(--margins-body);
+    margin-right: var(--margins-body);
+}
