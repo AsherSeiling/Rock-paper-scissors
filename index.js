@@ -6,9 +6,25 @@ var computer_input = 0;
 var lost_message = "You lost!";
 var won_message = "You won!";
 
+// Images wait
+function wait_num(interval){
+    document.getElementById("image").src = "images/three_to_one/three.png".src;
+    setTimeout(interval);
+    document.getElementById("image").src = "images/three_to_one/two.png".src;
+    setTimeout(interval);
+    document.getElementById("image").src = "images/three_to_one/one.png".src;
+    setTimeout(interval);
+};
+
+// Determine if won or lost
+function won_or_lost(){
+    
+};
 
 // Main function
 function main(){
+    wait_num(1000);
+    won_or_lost();
 };
 
 
