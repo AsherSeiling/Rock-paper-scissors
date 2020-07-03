@@ -1,18 +1,18 @@
 // © 2020 Asher Seiling
-var user_input = "";
-var computer_input = "";
+let user_input = "";
+let computer_input = "";
 
 // Run and lost messages
-var lost_message = "You lost!";
-var won_message = "You won!";
-var tie_message = "It's a tie!"
+let lost_message = "You lost!";
+let won_message = "You won!";
+let tie_message = "It's a tie!"
 
 // Image addresses
-var scissors_url = "images/Sissiors.png";
-var dunder_paper = "images/Dunder_paper.png";
-var paper = "images/Paper.png";
-var the_rock = "images/The_rock.png";
-var rock_url = "images/rock.png";
+let scissors_url = "images/Sissiors.png";
+let dunder_paper = "images/Dunder_paper.png";
+let paper = "images/Paper.png";
+let the_rock = "images/The_rock.png";
+let rock_url = "images/rock.png";
 
 // Assign value to won
 class user_input_num{
@@ -100,8 +100,8 @@ function main(){
 // Class to change the image
 class img{
     static rock(){
-        var random = Math.floor(Math.random() * 50) + 1;
-        if(random == 25){
+        var random = Math.floor(Math.random() * 10) + 1;
+        if(random == 5){
             document.getElementById("image").src = the_rock;
         }
         else{
@@ -109,8 +109,8 @@ class img{
         };
     };
     static paper(){
-        var random = Math.floor(Math.random() * 50) + 1;
-        if(random == 30){
+        var random = Math.floor(Math.random() * 10) + 1;
+        if(random == 4){
             document.getElementById("image").src = dunder_paper;
         }
         else{
