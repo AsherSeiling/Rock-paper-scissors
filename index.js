@@ -100,7 +100,7 @@ function main(){
 // Class to change the image
 class img{
     static rock(){
-        var random = Math.floor(Math.random() * 10) + 1;
+        let random = Math.floor(Math.random() * 10) + 1;
         if(random == 5){
             document.getElementById("image").src = the_rock;
         }
